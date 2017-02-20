@@ -7,4 +7,4 @@ Note: Baca yah siapa tau ada yang mengalami permasalahan yang sama hehe ^^
 
 Special Thanks to my friend: [Renald Nis](https://www.facebook.com/einhovant) and my friends at Nginx Indonesia Facebook Forum :)
 
-![alt tag](http://imgur.com/a/o21gg)
+![Photo](http://imgur.com/a/o21gg)
