@@ -1,0 +1,29 @@
+# Liat port apa aja yang LISTEN
+sudo netstat -pltn
+
+# Melihat apakah socket address dan port sudah di dipesan/booking oleh prosess yang lain apa belum
+sudo /usr/sbin/php-fpm7.0 --fpm-config /etc/php/7.0/fpm/php-fpm.conf
+
+# Edit php-fpm
+sudo nano /etc/php/7.0/fpm/pool.d/www.conf
+
+# Melihat Prosess yang berjalan pada php(on background)
+sudo ps aux | grep php
+
+# Restart php-fpm
+sudo service php7.0-fpm start
+
+# Melihat available options bantuan php-fpm
+sudo /usr/sbin/php-fpm7.0 --help
+
+# Mengetahui lokasi file php-fpm
+which php-fpm7.0
+
+# Monitoring syslog webserver
+sudo tailf syslog
+
+# edit php-fpm configuration
+sudo nano /etc/php/7.0/fpm/php-fpm.conf
+
+# Edit php-fpm log
+sudo nano /var/log/php7.0-fpm.log
